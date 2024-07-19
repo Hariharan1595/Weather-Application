@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    
+}
+
+
+.gradient-1{
+    background: linear-gradient(to top, #f3b07c, #fcd283);
+    box-shadow: -3rem 1rem 6rem rgba(0, 0, 0, 0.1);
+}
+.gradient-2{
+    background: linear-gradient(to right, #2f2e57, #605d80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
+.gradient-3{
+    background-color: rgba(225, 255, 225, 0.2);
+}
+.shadow{
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(84,81,84,1);
+-moz-box-shadow: 0px 1px 5px 0px rgba(84,81,84,1);
+box-shadow: 0px 1px 5px 0px rgba(84,81,84,1);
+}
